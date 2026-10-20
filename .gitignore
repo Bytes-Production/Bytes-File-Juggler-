@@ -1,0 +1,48 @@
+# Build output
+/build/
+/dist/
+*.obj
+*.o
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.user
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+*.cmake.state
+
+# Qt
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.autosave
+
+# Logs / temp
+*.log
+*~
+*.tmp
+
+# Verification screenshots
+verify*.png
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
